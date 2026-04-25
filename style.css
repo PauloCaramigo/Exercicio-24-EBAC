@@ -1,0 +1,79 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 600px;
+  margin: 40px auto;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#installPWA {
+  margin-left: 10px;
+  display: none;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+input {
+  padding: 10px;
+  margin-bottom: 15px;
+
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px;
+
+  border-radius: 8px;
+  border: none;
+
+  background-color: green;
+  color: white;
+
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: darkgreen;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+
+  padding: 15px;
+  margin-bottom: 15px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card button {
+  background-color: red;
+  width: 30px;
+  height: 30px;
+}
+
+.card button:hover {
+  background-color: darkred;
+}

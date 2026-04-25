@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Diário de bordo</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="manifest" href="manifest.json" />
+  </head>
+
+  <body>
+    <section class="container">
+
+      <h1>Inserir novo registro<button id="installPWA">Instalar aplicação</button></h1>
+      
+
+      <form id="form-anotacao">
+        <label for="titulo">Título</label>
+        <input type="text" id="titulo" required />
+
+        <label for="descricao">Descrição</label>
+        <input type="text" id="descricao" required />
+
+        <button type="submit">Enviar</button>
+      </form>
+
+      <div id="lista-anotacoes"></div>
+
+    </section>
+    
+    <script src="script.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

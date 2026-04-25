@@ -1,0 +1,36 @@
+{
+  "name": "Diario de bordo",
+  "short_name": "Diario",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
+  "icons": [
+    {
+      "src": "icons/icon-192x192.png",
+      "sizes": "600x600",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/icon-512x512.png",
+      "sizes": "1600x1600",
+      "type": "image/png"
+    }
+  ],
+  "screenshots": [
+      {
+      "src": "icons/Screenshot.png",
+      "sizes": "684x385",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Diario de bordo Desktop"
+      },
+      {
+        "src": "icons/Screenshot.png",
+        "sizes": "684x385",
+        "type": "image/png",
+        "form_factor": "narrow",
+        "label": "Diario de bordo Mobile"
+      }
+    ]
+}
